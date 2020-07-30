@@ -1,0 +1,6 @@
+gcc -DJULIAC_PROGRAM_LIBNAME=\"sys.so\" -o MyApp compile.c sys.so -O2 -fPIE \
+    -I'/home/ritesh/julia/include/julia' \
+    -L'/home/ritesh/julia/lib' \
+    -ljulia \
+    -Wl,-rpath,'/home/ritesh/julia/lib:$ORIGIN'
+
