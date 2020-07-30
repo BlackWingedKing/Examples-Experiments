@@ -1,2 +1,2 @@
-# julia_exec
-An Example of creating a binary in julia
+# julia_exec_example
+An Example to create a binary from julia code
